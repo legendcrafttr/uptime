@@ -1,31 +1,101 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: legendcrafttr # Your GitHub organization or username, where this repository lives
+repo: uptime # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: LCTR MC Server
+    check: tcp-ping
+    port: 25565
+    url: mc.legendcrafttr.com
+    slug: mc
+  - name: LegendCraftTR Website
+    url: https://legendcrafttr.com
+    slug: web
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
+  #cname: demo.upptime.js.org
+  baseUrl: /uptime
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  name: LCTR Uptime
+  theme: night
+  introTitle: "LCTR Uptime Durumu"
+  introMessage: Durum
   navbar:
     - title: Status
       href: /
     - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+      href: https://github.com/$OWNER/
+    - title: LCTR Website
+      href: https://legendcrafttr.com
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+i18n:
+  url: "URL"
+  status: "Durum"
+  history: "Geçmiş"
+  responseTime: "Ping (Response time)"
+  uptime: "Uptime"
+  up: "🟩 Çalışıyor"
+  degraded: "🟨 Bozuk"
+  down: "🟥 Kapalı"
+  responseTimeGraphAlt: "Ping grafiği"
+  ms: "ms"
+  responseTime: "Response time"
+  responseTimeDay: "24-hour response time"
+  responseTimeWeek: "7-day response time"
+  responseTimeMonth: "30-day response time"
+  responseTimeYear: "1-year response time"
+  uptime: "All-time uptime"
+  uptimeDay: "24-hour uptime"
+  uptimeWeek: "7-day uptime"
+  uptimeMonth: "30-day uptime"
+  uptimeYear: "1-year uptime"
+  liveStatus: "Canlı Durum"
+  liveStatusHtmlComment: "<!--live status-->"
+  allSystemsOperational: "🟩 Bütün sistemler çalışıyor"
+  degradedPerformance: "🟨 Kötü Performans"
+  completeOutage: "🟥 Tam Arıza"
+  partialOutage: "🟧 Kısmi Arıza"
+  activeIncidents: Aktif Arızalar
+  allSystemsOperational: Bütün sistemler çalışıyor
+  incidentReport: "Arıza #$NUMBER raporu →"
+  activeIncidentSummary: $DATE'de $POSTS post ile açıldı
+  incidentTitle: Arıza $NUMBER Detayları
+  incidentDetails: Arıza Detayları
+  incidentFixed: Düzeltildi
+  incidentOngoing: Devam Ediyor
+  incidentOpenedAt: "Açıldı:"
+  incidentClosedAt: "Kapandı:"
+  incidentViewOnGitHub: View and Subscribe on GitHub
+  incidentCommentSummary: Posted at $DATE by $AUTHOR
+  incidentBack: ← Bütün arızalara dön
+  pastIncidents: Geçmiş Arızalar
+  pastIncidentsResolved: Resolved in $MINUTES minutes with $POSTS posts
+  overallUptime: "Overall uptime: $UPTIME"
+  overallUptimeTitle: Overall uptime
+  averageResponseTime: "Average response time: $TIMEms"
+  averageResponseTimeTitle: Average response
+  sevelDayResponseTime: 7-day response time
+  responseTimeMs: Response time (ms)
+  loading: Yükleniyor
+  footer: deniz lol
+  errorTitle: An error occurred
+  errorIntro: An error occurred in trying to get the latest status details.
+  errorText: You can try again in a few moments.
+  errorHome: Go to the homepage
+  pastScheduledMaintenance: Past Scheduled Maintenance
+  scheduledMaintenance: Scheduled Maintenance
+  scheduledMaintenanceSummaryStarted: Started at $DATE for $DURATION minutes
+  scheduledMaintenanceSummaryStarts: Starts at $DATE for $DURATION minutes
+  startedAt: Started at
+  startsAt: Starts at
+  duration: Duration
+  durationMin: $DURATION minutes
+  incidentCompleted: Completed
+  incidentScheduled: Scheduled
+  duration24H: 24h
+  duration7D: 7d
+  duration30D: 30d
+  duration1Y: 1y
+  durationAll: all
