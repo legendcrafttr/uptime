@@ -16,7 +16,8 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2023-04-27": 1303,
+      "2023-04-28": 33,
+      "2023-04-27": 1440,
       "2023-04-26": 424
     }
   },
@@ -26,16 +27,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/legendcrafttr.com.ico",
     "slug": "web",
     "status": "up",
-    "uptime": "0.09%",
-    "uptimeDay": "0.00%",
-    "uptimeWeek": "0.09%",
-    "uptimeMonth": "0.09%",
-    "uptimeYear": "0.09%",
-    "time": 2406,
-    "timeDay": 2406,
-    "timeWeek": 2406,
-    "timeMonth": 2406,
-    "timeYear": 2406,
+    "uptime": "9.05%",
+    "uptimeDay": "11.82%",
+    "uptimeWeek": "9.05%",
+    "uptimeMonth": "9.05%",
+    "uptimeYear": "9.05%",
+    "time": 1749,
+    "timeDay": 1749,
+    "timeWeek": 1749,
+    "timeMonth": 1749,
+    "timeYear": 1749,
     "dailyMinutesDown": {
       "2023-04-27": 1303,
       "2023-04-26": 423
